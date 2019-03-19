@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Count vowels</title>
+	<style>
+ input {
+ 	width: 30%;
+ }
+	</style>
+</head>
+<div>
+	<input type="text" id="text">
+	</div>
+<div>
+	<button type="submit" onclick="countVowels()">ПОСЧИТАТЬ КОЛИЧЕСТВО <br>ГЛАСНЫХ БУКВ
+	</button>
+	</div>
+<body>
+<script>
+function countVowels() {
+var text=document.getElementById('text').value;
+text=text.toLowerCase();
+var counter=0;
+for (i=0; i<text.length; i++){
+ if (text[i]=='а'||text[i]=='о'||text[i]=='и'||text[i]=='е'||text[i]=='ё'||text[i]=='э'||text[i]=='ы'||text[i]=='у'||text[i]=='ю'||text[i]=='я') {
+ 	counter=counter+1;
+ } 
+  
+} alert('найдено гласных - '+counter);
+} 
+</script>
+</body>
+</html>
