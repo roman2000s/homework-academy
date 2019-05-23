@@ -1,0 +1,7 @@
+{
+    "noImplicitAny": false,
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "watch": true
+    }
+}
