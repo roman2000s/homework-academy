@@ -1,3 +1,3 @@
-npm i
-npm test
-tsc src/sum.ts
+<p>npm i<br>
+npm test<br>
+tsc src/sum.ts</p>
