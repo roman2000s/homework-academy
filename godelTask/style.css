@@ -1,0 +1,16 @@
+@media print {
+    body {
+        color: #000;
+        background: #fff;
+    }
+}
+
+
+body {
+background: grey;
+}
+
+.regulRow {
+    margin: 20px;
+}
+

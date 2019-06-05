@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Document</title>
+		<link rel="stylesheet" href ="style.css">
+</head>
+
+<body>
+	<h1>PROFILE</h1>
+	<div id="inputProfile">
+		<div class="regulRow">
+			<label>Full Name</label>
+			<input id="fullname" placeholder="Enter your full name.">
+		</div>
+		<div class="regulRow">
+			<label>Date of birth</label>
+			<input id="DateOfBirth" placeholder="Date of birth">
+		</div>
+		<div  class="regulRow">
+			<label>Education</label>
+			<input id="Education" placeholder="Education">
+		</div>
+		<div  class="regulRow">
+			<label>Contact Information</label>
+			<input id="ContInf" placeholder="Contact Information">
+		</div>
+		<button onclick="showUserProfile()">Show my profile</button>
+	</div>
+	<div id="outputProfile" style="display: none;">
+		<div class="regulRow">
+			<span id="userFullname">Your name: </span>
+		</div>
+		<div class="regulRow">
+			<span id="dateOfBirth">Your date of birth: </span>
+		</div>
+		<div class="regulRow">
+			<span id="userEducation">Your Education: </span>
+		</div>
+		<div  class="regulRow">
+			<span id="ContInformOut">Contact Information: </span>
+		</div>
+	</div>
+	<script src="script.js">
+	</script>
+</body>
+
+</html>
