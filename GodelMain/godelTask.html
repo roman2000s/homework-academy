@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+	<form class="Profile">Profile of user
+		<div id="inputProfile">
+			<div class="section">
+				<div class="photo">
+					<div class="buttonLoadPhoto">
+						<label class="buttonLoadPhotoStyles">
+							<i class="material-icons">attach_file</i>
+							<span class="title">load photo</span>
+							<input type="file">
+						</label>
+					</div>
+					<img class="photoImg" src="" alt=""></img>
+				</div>
+				<div class="regulRow">
+					<label class="nameOfRow">First Name</label>
+					<input class="inputItem" id="firstName" placeholder="Enter your first name">
+				</div>
+				<div class="regulRow">
+					<label class="nameOfRow">Second Name</label>
+					<input class="inputItem" id="secondName" placeholder="Enter your second name">
+				</div>
+				<div class="regulRow">
+					<label class="nameOfRow">Patronymic</label>
+					<input class="inputItem" id="patronymic" placeholder="Enter your patronymic">
+				</div>
+				<div class="regulRow">
+					<label class="nameOfRow">Date of birth</label>
+					<div class="groupSelect">
+						<input class="inputItem" id="DateOfBirth" type="date">
+
+					</div>
+				</div>
+			</div>
+			<div class="section">
+				<div class="regulRow">
+					<label class="nameOfRow">Education Institutions</label>
+					<input class="inputItem" id="EducationInstitutions" placeholder="Education Institutions">
+				</div>
+				<div class="regulRow">
+					<label class="nameOfRow">Faculty</label>
+					<input class="inputItem" id="Faculty" placeholder="Faculty">
+				</div>
+				<div class="regulRow">
+					<label class="nameOfRow">Specialization</label>
+					<input class="inputItem" id="Specialization" placeholder="Specialization">
+				</div>
+				<div class="regulRow">
+					<label class="nameOfRow">Year completion</label>
+					<select class="nameOfRow" id="YearCompletion">
+						<option>Год</option>
+						<option>2007</option>
+						<option>2006</option>
+						<option>2005</option>
+						<option>2004</option>
+						<option>2003</option>
+						<option>2002</option>
+						<option>2001</option>
+						<option>2000</option>
+						<option>1999</option>
+						<option>1998</option>
+						<option>1997</option>
+						<option>1996</option>
+						<option>1995</option>
+						<option>1994</option>
+						<option>1993</option>
+						<option>1992</option>
+						<option>1991</option>
+						<option>1990</option>
+						<option>1989</option>
+						<option>1988</option>
+						<option>1987</option>
+						<option>1986</option>
+						<option>1985</option>
+						<option>1984</option>
+						<option>1983</option>
+						<option>1982</option>
+						<option>1981</option>
+						<option>1980</option>
+					</select>
+				</div>
+			</div>
+			<div class="section">
+				<div class="regulRow">
+					<label class="nameOfRow">Phone</label>
+					<input class="inputItem" id="Phone" placeholder="Phone">
+				</div>
+				<div class="regulRow">
+					<label class="nameOfRow">E-mail</label>
+					<input class="inputItem" id="Email" placeholder="e-mail">
+				</div>
+				<div class="regulRow">
+					<label class="nameOfRow">Skype</label>
+					<input class="inputItem" id="Skype" placeholder="skype">
+				</div>
+				<div class="regulRow">
+					<label class="nameOfRow">Telegram</label>
+					<input class="inputItem" id="Telegram" placeholder="telegram">
+				</div>
+				<div class="regulRow">
+					<label class="nameOfRow">Other</label>
+					<input class="inputItem" id="Other" placeholder="other">
+				</div>
+			</div>
+			<div class="groupButtons">
+				<div class="button showMyProfile">Show my profile</div>
+				<div class="button save">Save</div>
+			</div>
+		</div>
+		<a id="link" href="data: + data"></a>
+		<div id="outputProfile">
+			<div class="sectionOut">
+				<div class="regulRowOut">
+					<div class="titleInfoOut">First name:</div>
+					<span id="firstNameOut"> </span>
+				</div>
+				<div class="regulRowOut">
+					<div class="titleInfoOut">Second name:</div>
+					<span id="secondNameOut"></span>
+				</div>
+				<div class="regulRowOut">
+					<div class="titleInfoOut">Patronymic:</div>
+					<span id="patronymicNameOut"></span>
+				</div>
+				<div class="regulRowOut">
+					<div class="titleInfoOut">Your date of birth:</div>
+					<span id="dateOfBirthOut"></span>
+				</div>
+			</div>
+			<div class="sectionOut">
+				<div class="regulRowOut">
+					<div class="titleInfoOut">Education Institutions</div>
+					<span id="EducationInstitutionsOut"></span>
+				</div>
+				<div class="regulRowOut">
+					<div class="titleInfoOut">Faculty</div>
+					<span id="FacultyOut"></span>
+				</div>
+				<div class="regulRowOut">
+					<div class="titleInfoOut">Specialization</div>
+					<span id="SpecializationOut"></span>
+				</div>
+				<div class="regulRowOut">
+					<div class="titleInfoOut">Year completion</div>
+					<span id="YearCompletionOut"></span>
+				</div>
+			</div>
+			<div class="sectionOut">
+				<div class="regulRowOut">
+					<div class="titleInfoOut">Phone</div>
+					<span id="PhoneOut" placeholder="Phone"></span>
+				</div>
+				<div class="regulRowOut">
+					<div class="titleInfoOut">E-mail</div>
+					<span id="EmailOut" placeholder="e-mail"></span>
+				</div>
+				<div class="regulRowOut">
+					<div class="titleInfoOut">Skype</div>
+					<span id="SkypeOut" placeholder="skype"><span>
+				</div>
+				<div class="regulRowOut">
+					<div class="titleInfoOut">Telegram</div>
+					<span id="TelegramOut" placeholder="telegram"></span>
+				</div>
+				<div class="regulRowOut">
+					<div class="titleInfoOut">Other</div>
+					<span id="OtherOut" placeholder="other"></span>
+				</div>
+			</div>
+		</div>
+	</form>
+	<script src="script.js">
+	</script>
+</body>
+
+</html>
