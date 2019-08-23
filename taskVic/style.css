@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    background-color: grey;
+    height: 600px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.rules {
+    margin: auto;
+    width: 300px;
+   
+}
+
+.exit {
+    color: red;
+}
+
+.result {
+     color: white;
+}
